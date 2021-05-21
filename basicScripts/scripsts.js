@@ -32,3 +32,23 @@ function calcPercentage(numb, perctg) {
 let result = calcPercentage(1000, 1);
 console.log(result);
 
+let names = ['Joao', 'Isa', 'Adriana', 'Maria'];
+
+let grades = [10, 5, 12];
+
+console.log('Name: ' + names[0]);
+console.log('Grade: ' + grades[0]);
+
+let name1 = 'MARCOS';
+let name2 = 'MARCOS';
+
+if (name1 === name2) {
+  console.log("EQUAL!");
+} else {
+  console.log("Not equal!");
+}
+
+//OPERADOR TERNÁRIO
+let points = 200;
+let type = points > 100 ? 'premium' : 'common';
+console.log(type);
