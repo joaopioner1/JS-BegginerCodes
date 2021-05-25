@@ -52,3 +52,12 @@ if (name1 === name2) {
 let points = 200;
 let type = points > 100 ? 'premium' : 'common';
 console.log(type);
+
+function largestNumber(n1, n2) {
+  if (n1 > n2) {
+    console.log("The largest number is: " + n1);
+  } else {
+    console.log("The largest number is: " + n2);
+  }
+}
+largestNumber(1.15, 1.2);
