@@ -55,9 +55,10 @@ console.log(type);
 
 function largestNumber(n1, n2) {
   if (n1 > n2) {
-    console.log("The largest number is: " + n1);
+    return "The largest number is: " + n1;
   } else {
-    console.log("The largest number is: " + n2);
+    return "The largest number is: " + n2;
   }
 }
-largestNumber(1.15, 1.2);
+console.log(largestNumber(1.15, 1.2));
+
